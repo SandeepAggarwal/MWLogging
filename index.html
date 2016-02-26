@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Mwlogging by SandeepAggarwal</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/SandeepAggarwal/MWLogging">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Mwlogging</h1>
+            <h2>Provides simple logging functions that use the Apple System Log.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/SandeepAggarwal/MWLogging/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/SandeepAggarwal/MWLogging/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="mwlogging" class="anchor" href="#mwlogging" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MWLogging</h1>
+
+<h1></h1>
+
+<p><a href="https://img.shields.io/cocoapods/v/MWLogging.svg"><img src="https://img.shields.io/cocoapods/v/MWLogging.svg" alt="Cocoapods Compatible"></a>
+<a href="http://cocoadocs.org/docsets/MWLogging"><img src="https://img.shields.io/cocoapods/p/MWLogging.svg?style=flat" alt="Platform"></a></p>
+
+<p>MWLogging - simple wrapper macros around the ASL (Apple System Log).</p>
+
+<p>This repository is forked from <a href="https://github.com/MikeWeller/MWLogging">https://github.com/MikeWeller/MWLogging</a>.</p>
+
+<p>For more information see the blog post:</p>
+
+<p><a href="http://doing-it-wrong.mikeweller.com/2012/07/youre-doing-it-wrong-1-nslogdebug-ios.html">http://doing-it-wrong.mikeweller.com/2012/07/youre-doing-it-wrong-1-nslogdebug-ios.html</a></p>
+
+<h3>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h3>
+
+<ol>
+<li>Log statements with different log levels.</li>
+<li>Debug log levels will be wiped out from release builds so as to prevent revealing of sensitive information about the app or user.</li>
+</ol>
+
+<h3>
+<a id="installation-with-cocoapods" class="anchor" href="#installation-with-cocoapods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation with CocoaPods</h3>
+
+<h4>
+<a id="podfile" class="anchor" href="#podfile" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Podfile</h4>
+
+<div class="highlight highlight-source-ruby"><pre>pod “<span class="pl-c1">MWLogging</span>”</pre></div>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-source-objc"><pre>#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">&lt;</span>MWLogging.h<span class="pl-pds">&gt;</span></span></pre></div>
+
+<div class="highlight highlight-source-objc"><pre><span class="pl-en">MWLogError</span>(<span class="pl-s"><span class="pl-pds">@"</span>This is an error<span class="pl-pds">"</span></span>);
+<span class="pl-en">MWLogDebug</span>(<span class="pl-s"><span class="pl-pds">@"</span>This is a debug statement<span class="pl-pds">"</span></span>);
+<span class="pl-en">MWLogWarning</span>(<span class="pl-s"><span class="pl-pds">@"</span>This is a warning<span class="pl-pds">"</span></span>);</pre></div>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+
+<p>MWLogging supports minimum iOS 7 .
+Supports both iPhone and iPad.</p>
+
+<h2>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h2>
+
+<p><a href="https://twitter.com/sandeepCool77">@sandeepCool77</a></p>
+
+<p><a href="mailto:smartsandeep1129@gmail.com">Sandeep Aggarwal</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>MWLogging is released under the MIT license. See LICENSE for details.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/SandeepAggarwal">SandeepAggarwal</a> can be found on <a href="https://github.com/SandeepAggarwal/MWLogging">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
