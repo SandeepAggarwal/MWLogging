@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MWLogging"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Provides simple logging functions that use the Apple System Log."
 
   s.description  = <<-DESC
@@ -16,7 +16,7 @@ Debug log levels will be wiped out from release builds to prevent potential reve
   s.author             = { "Sandeep Aggarwal" => "smartsandeep1129@gmail.com" }
   s.social_media_url   = "https://twitter.com/sandeepCool77"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/SandeepAggarwal/MWLogging.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/SandeepAggarwal/MWLogging.git", :tag => "1.0.0" }
   s.source_files  = "MWLogging.{h,m}"
   s.requires_arc = true
 
