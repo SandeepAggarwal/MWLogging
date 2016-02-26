@@ -5,8 +5,11 @@
 [![Platform](https://img.shields.io/cocoapods/p/MWLogging.svg?style=flat)](http://cocoadocs.org/docsets/MWLogging)
 
 MWLogging - simple wrapper macros around the ASL (Apple System Log).
-This repository is forked from https://github.com/MikeWeller/MWLogging
+
+This repository is forked from https://github.com/MikeWeller/MWLogging.
+
 For more information see the blog post:
+
 http://doing-it-wrong.mikeweller.com/2012/07/youre-doing-it-wrong-1-nslogdebug-ios.html
 
 ### Features
